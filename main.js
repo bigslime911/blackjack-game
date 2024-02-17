@@ -12,7 +12,7 @@ function startEl(){
     if (sum <= 20){
         message = "Do yo ant to draw a new card?";
     } else if (sum === 21){
-        message = "woohoo, You've Blackjack";
+        message = "woohoo, You've Blackjack.";
         hasBlackJack = true;
     } else {
         message = "You're out of the game.";
